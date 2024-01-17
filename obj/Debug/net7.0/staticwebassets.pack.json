@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\wwwroot\\img\\ASP.NETCoreMVC.png",
+      "PackagePath": "staticwebassets\\img\\ASP.NETCoreMVC.png"
+    },
+    {
       "Id": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

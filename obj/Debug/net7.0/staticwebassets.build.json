@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o8GUD+Lj5yKvhW+HQTTU7tk5NDJ8zZ89pr3vK6OzDOA=",
+  "Hash": "dugWs02iQcffAnx/0Hv0KlcU1HExdR0z7SamOiz7IS0=",
   "Source": "aspnet-core-mvc-crud",
   "BasePath": "_content/aspnet-core-mvc-crud",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\wwwroot\\img\\ASP.NETCoreMVC.png",
+      "SourceId": "aspnet-core-mvc-crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\wwwroot\\",
+      "BasePath": "_content/aspnet-core-mvc-crud",
+      "RelativePath": "img/ASP.NETCoreMVC.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ASP.NETCoreMVC.png"
     },
     {
       "Identity": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\wwwroot\\js\\site.js",
