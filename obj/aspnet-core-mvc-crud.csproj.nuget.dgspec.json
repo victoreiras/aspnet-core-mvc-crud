@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj": {}
+    "C:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj": {}
   },
   "projects": {
-    "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj": {
+    "C:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj",
+        "projectUniqueName": "C:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj",
         "projectName": "aspnet-core-mvc-crud",
-        "projectPath": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj",
+        "projectPath": "C:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj",
         "packagesPath": "C:\\Users\\victor.eiras\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\obj\\",
+        "outputPath": "C:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victor.eiras\\AppData\\Roaming\\NuGet\\NuGet.Config"

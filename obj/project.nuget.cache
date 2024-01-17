@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3/A2dJQ6wWBU1Da/VhjZ5cU9yu6G1qrG6gqy9Bzay2PIU/bD8CDIu/mk/dmH+XZQsduwjDbA6o1hQhKX2TPnA==",
+  "dgSpecHash": "blYym1Ejn/YSdL740+wkz9kNsnpk9VX3GpHeyXoy5ucApj4m6AU8PkeJwK74X0Nq8GW1SdmWMzO/dnpuMNsBrg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj",
+  "projectFilePath": "C:\\Users\\victor.eiras\\Desktop\\Victor\\Dev\\aspnet-core-mvc-crud\\aspnet-core-mvc-crud.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
