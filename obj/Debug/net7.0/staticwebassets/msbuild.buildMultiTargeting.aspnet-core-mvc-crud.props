@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\aspnet-core-mvc-crud.props" />
+</Project>
