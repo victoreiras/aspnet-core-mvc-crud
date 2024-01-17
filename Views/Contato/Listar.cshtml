@@ -1,29 +1,38 @@
 @model IEnumerable<Contato>
 
-<table class="table table-hover">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Sobrenome</th>
-            <th scope="col">Telefone</th>
-            <th scope="col">Email</th>
-        </tr>
-    </thead>
-    <tbody>
+<div class="container">
 
-        @if (Model != null)
-        {
-            @foreach (var item in Model)
+    <h2>Lista de Contatos</h2>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Email</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @if (Model != null)
             {
-                <tr>
-                    <th scope="row"></th>
-                    <td>@item.Nome</td>
-                    <td>@item.Sobrenome</td>
-                    <td>@item.Telefone</td>
-                    <td>@item.Email</td>
-                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nome</td>
+                        <td>@item.Sobrenome</td>
+                        <td>@item.Telefone</td>
+                        <td>@item.Email</td>
+                        <td>
+                            <a class="btn btn-warning">Editar</a>
+                            <a class="btn btn-danger">Excluir</a>
+                        </td>
+                    </tr>
+                }
             }
-        }
-    </tbody>
-</table>
+        </tbody>
+    </table>
+
+</div>

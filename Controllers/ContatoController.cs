@@ -1,3 +1,4 @@
+using aspnet_core_mvc_crud.Data;
 using aspnet_core_mvc_crud.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -5,12 +6,20 @@ namespace aspnet_core_mvc_crud.Controllers;
 
 public class ContatoController : Controller
 {
+    private readonly AppDbContext _db;
+
+    public ContatoController(AppDbContext db)
+    {
+        _db = db;
+    }
+
     [HttpGet]
     public IActionResult Listar()
     {
-        var listaDeContatos = new List<Contato>{
-            new Contato {Id = 1, Nome = "Victor", Sobrenome = "Eiras", Telefone = "(11)941042558", Email = "victor.eiras@gmail.com"}
-        };
+        var listaDeContatos = _db.Contatos.ToList();
+
+        if (listaDeContatos == null)
+            return NotFound();
 
         return View(listaDeContatos);
     }
