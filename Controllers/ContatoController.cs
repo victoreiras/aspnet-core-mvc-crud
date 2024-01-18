@@ -23,4 +23,22 @@ public class ContatoController : Controller
 
         return View(listaDeContatos);
     }
+
+    [HttpGet]
+    public IActionResult Cadastrar()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Cadastrar(Contato contato)
+    {
+        if (!ModelState.IsValid)
+            return NotFound();
+
+        _db.Contatos.Add(contato);
+        _db.SaveChanges();
+
+        return RedirectToAction("Listar");
+    }
 }
