@@ -33,11 +33,15 @@ public class ContatoController : Controller
     [HttpPost]
     public IActionResult Cadastrar(Contato contato)
     {
-        if (!ModelState.IsValid)
-            return NotFound();
+        if (ModelState.IsValid)
+        {
+            _db.Contatos.Add(contato);
+            _db.SaveChanges();
 
-        _db.Contatos.Add(contato);
-        _db.SaveChanges();
+            TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
+        }
+        else
+            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar o cadastro!";
 
         return RedirectToAction("Listar");
     }
@@ -53,11 +57,15 @@ public class ContatoController : Controller
     [HttpPost]
     public IActionResult Editar(Contato contato)
     {
-        if (!ModelState.IsValid)
-            return View(contato);
+        if (ModelState.IsValid)
+        {
+            _db.Contatos.Update(contato);
+            _db.SaveChanges();
 
-        _db.Contatos.Update(contato);
-        _db.SaveChanges();
+            TempData["MensagemSucesso"] = "Edição realizada com sucesso!";
+        }
+        else
+            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a edição!";
 
         return RedirectToAction("Listar");
     }
@@ -73,11 +81,15 @@ public class ContatoController : Controller
     [HttpPost]
     public IActionResult Excluir(Contato contato)
     {
-        if (!ModelState.IsValid)
-            return View(contato);
+        if (ModelState.IsValid)
+        {
+            _db.Contatos.Remove(contato);
+            _db.SaveChanges();
 
-        _db.Contatos.Remove(contato);
-        _db.SaveChanges();
+            TempData["MensagemSucesso"] = "Exclusão realizada com sucesso!";
+        }
+        else
+            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a exclusão!";
 
         return RedirectToAction("Listar");
     }
