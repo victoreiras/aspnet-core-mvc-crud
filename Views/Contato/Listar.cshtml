@@ -4,7 +4,8 @@
 
     <div>
         <h1 class="mb-3">Lista de Contatos</h1>
-        <a class="btn btn-success mb-3" asp-controller="Contato" asp-action="Cadastrar">Novo Contato</a>
+        <a class="btn btn-success mb-3" asp-controller="Contato" asp-action="Cadastrar"><i
+                class="bi bi-file-earmark-plus mx-2"></i>Novo Contato</a>
     </div>
 
     <table class="table table-hover">
@@ -31,9 +32,9 @@
                         <td>@item.Email</td>
                         <td>
                             <a class="btn btn-warning" asp-controller="Contato" asp-action="Editar"
-                                asp-route-id="@item.Id">Editar</a>
+                                asp-route-id="@item.Id"><i class="bi bi-pencil-square mx-2"></i>Editar</a>
                             <a class="btn btn-danger" asp-controller="Contato" asp-action="Excluir"
-                                asp-route-id="@item.Id">Excluir</a>
+                                asp-route-id="@item.Id"><i class="bi bi-trash3-fill mx-2"></i>Excluir</a>
                         </td>
                     </tr>
                 }
